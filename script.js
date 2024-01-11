@@ -63,7 +63,6 @@ function setAlarm(e) {
   }
   alarmStop = `${selectMenu[1].value}`
   alarmStop = parseInt(alarmStop) + 1
-  console.log(alarmStop)
   alarmTime = time;
   isAlarmSet = true;
   content.classList.add("disable");
